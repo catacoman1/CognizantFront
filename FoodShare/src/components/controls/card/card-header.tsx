@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-
+import "./card-header.css"
 const CardHeader = ({children} : {children:ReactNode}) => {
     return (
         <>
