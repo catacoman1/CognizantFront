@@ -4,7 +4,7 @@ import "./nav-bar.css"
 
 const NavBar = () => {
     return(
-        
+        <div>
             <ul>
             <li>
                 <NavLink to = "/">Admin</NavLink>
@@ -16,7 +16,7 @@ const NavBar = () => {
                 <NavLink to = "/benefit">Benefit</NavLink>
             </li>
             </ul>
-        
+            </div>
     )
 }
 export default NavBar
